@@ -1,73 +1,64 @@
 export const bio = [
-  "Hello, I'm Vinay Somawat!",
-  "<strong>Frontend Software Engineer</strong> with 4+ years of experience building scalable, user-focused web applications.",
-  "Skilled in Angular, TypeScript, and performance optimization, I aim to leverage my expertise in delivering innovative solutions that drive measurable business outcomes.",
-  "Passionate about mentoring, teamwork, and continuous improvement in engineering processes.",
+  "Hello, I'm Rajedra Prasad Patil!",
+  "<strong>Software Engineer</strong> with 5+ years of experience building scalable, user-focused software applications.",
+  "Skilled in Java, Python, Spring Boot, Fast API, and performance optimization, I aim to leverage my expertise in delivering impactful solutions that drive measurable business outcomes.",
+  "Passionate about ownership, mentoring, teamwork, and continuous improvement in engineering processes.",
 ];
 
 export const skills = [
-  "JavaScript, TypeScript, Angular, AngularJS, React, HTML5, CSS, Bootstrap, Tailwind CSS",
-  "RxJS, NGXS, NGRX, WebSockets, Stencil, Storybook, Module Federation, Webpack",
-  "Jenkins, JIRA, Git",
-  "Performance Optimization, Responsive Design, Cross-Browser Compatibility",
+  "Java, Python, React",
+  "Spring Boot, FastAPI, REST, SQL",
+  "Github Actions, JIRA, Git",
+  "Ownership, Team Management, Agile",
 ];
 
 export const experience = [
   {
-    title: "Shiprocket Private Limited",
-    duration: "September 2023 - Present",
+    title: "Lendistry",
+    duration: "November 2023 - February 2025",
     subtitle: "Software Engineer",
     details: [
-      "Developed a design system using Stencil and Storybook that provides consistent UI components across platforms, ensuring a cohesive design.",
-      "Developed a dynamic support ticket panel that renders subcategories based on component IDs, handling up to 100 AWBs simultaneously.",
-      "Migrated 30+ modules from AngularJS to Angular 15 using Generative AI tools, reporting directly to the VP of Engineering.",
-      "Designed and implemented advanced features such as keyboard shortcuts, improving operational efficiency by 15 percent.",
-      "Took ownership of OKRs, collaborated with the product team, and mentored two junior developers, cutting their code review iterations and ensuring on-time feature delivery.",
+      "Redesigned the outdated digital contract generation module through API upgrades, documentation, debugging bugs, and code improvements; reduced customer delivery delays by 35%, enhancing overall client satisfaction.",
+      "Led a cross-functional team of engineers, analysts, legal experts, and testers to successfully upgrade single to multi-guarantor applications, enabling the launch of innovative loan products.",
+      "Spearheaded the development of a Python microservice Docker image to streamline public API integration, enabling rapid development cycles. Automated deployment pipelines using GitHub Actions, ensuring seamless, efficient, and scalable delivery.",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
-    icon: "truck ",
+    tags: ["Java", "Python", "SpringBoot", "Postgres", "Public APIs"],
+    icon: "truck",
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    title: "Auramedpro",
+    duration: "Jan 2023 – Nov 2023",
+    subtitle: "Backend Engineer",
     details: [
-      "Spearheaded the implementation of micro-frontends using Module Federation, enabling modular and scalable architecture.",
-      "Earned the Biofourmis Bravo Award for upgrading the application to support flexible operations across multiple geographies.",
-      "Enhanced performance and user experience by integrating Twilio-Video, Countly, and NGXS WebSocket for real-time data management.",
+      "Engineered form data submission in microservice architecture with 99% uptime, resulting in a smooth business onboarding using Java, Spring Boot, Docker, and REST APIs.",
+      "Monitored user metrics using Google Analytics to prioritize and prevent user drops based on engagement and CSAT score, resulting in a 15% increase in Monthly Active Users (MAU).",
     ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
+    tags: ["Java", "React", "SpringBoot", "Postgres", "Public APIs"],
     icon: "heartbeat",
   },
   {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
+    title: "Digital Harbor",
+    duration: "Dec 2019 – Jan 2021",
     subtitle: "Software Engineer",
     details: [
-      "Built critical banking features including AePS services (eKYC, cash withdrawal, balance inquiry) used by over 1,00,000 retailers.",
-      "Developed QR code integration for wallet money loading, streamlining retailer workflows and reducing errors by 25 percent.",
-      "Integrated Clevertap analytics, Freshdesk ticketing, and chatbot services, enhancing user support and engagement.",
+      "Improved metadata retrieval module for search queries to extract 90 additional features for key analytics reports and intelligent results using Python, FastAPI, and RASA NLU.",
+      "Established a robust testing framework, leading to a substantial reduction in bug reports by 50%, thus enhancing product reliability and confidence among developers and stakeholders.",
+      "Led a team of 3 to develop High-performance Data Dashboards for User Data, leveraging SQL, REST API, DevOps, and Java, improving stakeholder satisfaction.",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Java", "Python", "SpringBoot", "Postgres", "Public APIs"],
     icon: "qrcode",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "Senseforth AI Research",
+    duration: "Oct 2017 – Dec 2019",
+    subtitle: "Software Engineer",
     details: [
-      `Designed and developed a social media post management panel, improving collaboration efficiency by 50 percent.`,
+      "Designed and maintained a chatbot application from the Proof of Concept (PoC) stage to production, serving over 1000 customers/day using the company’s proprietary NLP framework. ",
+      "Integrated chatbot application with an external partner for data exchange of 10,000+ users, ensuring Data compliance and user security.",
+      "Attended 15+ stakeholder meetings to capture client requirements and crafted comprehensive user stories, boosting project efficiency and cutting time-to-market by two weeks.",
+      "Developed an analytics module for credit card transactions, enhancing user engagement in a chatbot application driving a more intuitive and personalized user experience.",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    tags: ["Java", "Python", "Tomcat", "MySQL", "Public APIs"],
     icon: "group",
   },
 ];
@@ -83,8 +74,8 @@ export const trekking = [
 export const education = [
   {
     title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    duration: "2013 - 2017",
+    subtitle: "Dayananda Sagar College of Engineering, Bangalore",
     details: [],
     tags: [
       "Data Structures & Algorithms",
@@ -97,11 +88,18 @@ export const education = [
     icon: "graduation-cap",
   },
   {
-    title: "Class 12th in Science and Mathematics",
+    title: "Masters in Computer Science and Engineering",
     duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    subtitle: "New Jersey Institute of Technology, Newark, NJ",
     details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    tags: [
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "Database Management System",
+      "Computer Networks",
+      "Compiler Designing",
+      "Cloud Computing",
+    ],
     icon: "book",
   },
 ];
@@ -144,26 +142,26 @@ export const footer = [
   {
     label: "Links",
     data: [
-      //   {
-      //     text: "Linkedin",
-      //     link: "https://www.linkedin.com/in/vinaysomawat/",
-      //   },
+      {
+        text: "Linkedin",
+        link: "https://www.linkedin.com/in/rajendra7406/",
+      },
       //   {
       //     text: "Twitter",
       //     link: "https://twitter.com/thesigmakid",
       //   },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+      // {
+      //   text: "Buy me a coffee",
+      //   link: "https://www.buymeacoffee.com/r194dME8y",
+      // },
       {
         text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        link: "https://github.com/rajendra7406/",
       },
     ],
   },
   {
     label: "copyright-text",
-    data: ["Made with &hearts; by Vinay Somawat"],
+    data: ["Made with &hearts; by Rajendra Prasad Patil"],
   },
 ];
