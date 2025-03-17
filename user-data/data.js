@@ -1,6 +1,6 @@
 export const bio = [
   "Hello, I'm Rajedra Prasad Patil!",
-  "<strong>Software Engineer</strong> with 5+ years of experience building scalable, user-focused software applications.",
+  "<strong>Software Engineer</strong> with experience in building scalable, user-focused software applications.",
   "Skilled in Java, Python, Spring Boot, Fast API, and performance optimization, I aim to leverage my expertise in delivering impactful solutions that drive measurable business outcomes.",
   "Passionate about ownership, mentoring, teamwork, and continuous improvement in engineering processes.",
 ];
@@ -37,6 +37,17 @@ export const experience = [
     icon: "heartbeat",
   },
   {
+    title: "New Jersey Institute of Technology",
+    duration: "Jan 2021 – Dec 2019",
+    subtitle: "Software Engineer",
+    details: [
+      "Performed research and API development for arkouda systems leading to publication of two additional research papers.",
+      "Conducted training sessions to 25 students and researchers on API and framework usage resulting in one additional researcher onboarding.",
+    ],
+    tags: ["Java", "Python", "Tomcat", "MySQL", "Public APIs"],
+    icon: "group",
+  },
+  {
     title: "Digital Harbor",
     duration: "Dec 2019 – Jan 2021",
     subtitle: "Software Engineer",
@@ -50,7 +61,7 @@ export const experience = [
   },
   {
     title: "Senseforth AI Research",
-    duration: "Oct 2017 – Dec 2019",
+    duration: "Aug 2016 – Dec 2019",
     subtitle: "Software Engineer",
     details: [
       "Designed and maintained a chatbot application from the Proof of Concept (PoC) stage to production, serving over 1000 customers/day using the company’s proprietary NLP framework. ",
